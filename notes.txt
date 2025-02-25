@@ -1,0 +1,33 @@
+css standsfor cascading style sheets
+used to make code look more appeling 
+
+@css box model
+-block element
+
+-inline elements
+
+@css properties
+    _font-family
+    _font-color 
+    _font-size
+    _color
+    _box
+    _margin
+    _layout
+    _selector
+        #syntax <selector>{ property:value;}
+        eg:-h1{font-size:30px;}
+        *you can do multiple decleration in single selector
+@how to include css in your html
+    -inline css 
+        *adding css element directly to the html tag
+        eg:- <h1 style="color:blue;">wellcome abord</h1> 
+    -internal css
+        writing code in same html file but using block method or style tags
+        *internal css should be written in head tag
+        this shoud be written inside tne style tag
+    -external css
+        to create an external style sheet and link it to the respective html page
+            syntax to link the files *this should be done in a head tag:<link rel="stylesheet" href = "app.css">
+        +in app.css 
+
